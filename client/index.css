@@ -1,0 +1,9 @@
+.link-img {
+    height: 10%;
+    width: 10%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}

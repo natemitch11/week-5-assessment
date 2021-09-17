@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Star Jedi";
+  src: url("./starjedi-font/Starjedi.ttf");
+}
+* {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+.home {
+  margin: 5px;
+  font-family: "Star Jedi";
+  font-size: 18px;
+  color: yellow;
+}
+
+#body {
+  height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/4040062.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: black;
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+}
+
+#header {
+  margin: 30px;
+  font-family: "Star Jedi";
+  color: yellow;
+}
+
+#planet-info {
+  height: auto;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h3 {
+  margin: 5px;
+  color: yellow;
+}
+
+button {
+  border-radius: 10%;
+  margin: 5px;
+  border: none;
+  height: 25px;
+  width: 50px;
+  color: black;
+}
