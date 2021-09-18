@@ -7,8 +7,8 @@ app.use(express.json()); // When we want to be able to accept JSON.
 
 const controller = require('./controllers/controller')
 
-let users = []
 
+app.get("/api/fortune", controller.Fortunes)
 app.get("/api/compliment", controller.Compliments);
 app.post(`/api/login`, controller.login)
 app.post(`/api/register`, controller.register)

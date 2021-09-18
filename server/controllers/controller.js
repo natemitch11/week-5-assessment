@@ -16,6 +16,19 @@ module.exports = {
         res.status(200).send(randomCompliment);
         
       },
+    Fortunes: (req, res) => {
+        const fortunes = ["The force will be with you",
+                           "Your Sam-wise Gamgee will appear soon.",
+                           "Stay away from Leo's today",
+        ];
+      
+        // choose random compliment
+        let randomIndex = Math.floor(Math.random() * fortunes.length);
+        let randomFortune = fortunes[randomIndex];
+      
+        res.status(200).send(randomFortune);
+        
+      },
       login: (req, res) => {
         console.log('Logging In User')
         const { username, password } = req.body
